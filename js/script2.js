@@ -14,7 +14,7 @@ if (isPalindrome(word)) {
 
 // Funzione per verificare se una parola è palindroma
 function isPalindrome(word) {
-  // Converte la parola in minuscolo e rimuove eventuali spazi
+  // Converte la parola in minuscolo
   word = word.toLowerCase();
 
   // Confronta la parola originale con la sua versione invertita

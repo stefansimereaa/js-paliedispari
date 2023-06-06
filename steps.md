@@ -15,3 +15,15 @@ Dichiariamo chi ha vinto.
   - Calcolare la somma del numero dell'utente + il numero della cpu
   - Verificare se la somma è "pari" o "dispari"
   - Stampare il risultato in pagina
+
+# Esercizio Palindroma
+
+Palidroma
+Chiedere all’utente di inserire una parola
+Creare una funzione per capire se la parola inserita è palindroma
+
+- Far inserire una parola all'utente dentro un prompt
+- Controllare se la parola è palindroma
+- Creare la funzione per verificare se la parola è palindroma ed esegua vari controlli:
+  - Convertire la parola in minuscolo
+  - Confrontare la parola normale con la parola invertita e verificare
