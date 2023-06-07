@@ -5,7 +5,7 @@ const userNumberInput = document.getElementById('number');
 const resultHTML = document.getElementById('results');
 const outcomeHTML = document.getElementById('outcome');
 
-// Aggiungi l'evento click al pulsante
+//Click al pulsante
 button.addEventListener('click', oddOrEven);
 
 // Funzione per il calcolo di pari o dispari
@@ -13,7 +13,7 @@ function oddOrEven() {
 
   // Recupero i valori inseriti dall'utente
   const userChoice = userChoiceInput.value;
-//   const userNumber = parseInt(userNumberInput.value);
+  const userNumber = parseInt(userNumberInput.value);
 
   // Verifica che il numero inserito sia compreso tra 1 e 5
   if (userNumber < 1 || userNumber > 5) {
